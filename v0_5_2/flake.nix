@@ -13,12 +13,12 @@
   inputs.src-jesterwithplugins-v0_5_2.repo  = "jesterwithplugins";
   inputs.src-jesterwithplugins-v0_5_2.type  = "github";
   
-  #inputs."httpbeast".owner = "nim-nix-pkgs";
-  #inputs."httpbeast".ref   = "master";
-  #inputs."httpbeast".repo  = "httpbeast";
-  #inputs."httpbeast".type  = "github";
-  #inputs."httpbeast".inputs.nixpkgs.follows = "nixpkgs";
-  #inputs."httpbeast".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."httpbeast".owner = "nim-nix-pkgs";
+  inputs."httpbeast".ref   = "master";
+  inputs."httpbeast".repo  = "httpbeast";
+  inputs."httpbeast".type  = "github";
+  inputs."httpbeast".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."httpbeast".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
