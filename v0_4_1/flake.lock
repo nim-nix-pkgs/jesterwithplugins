@@ -2,79 +2,21 @@
   "nodes": {
     "asynctools": {
       "inputs": {
-        "asynctools-master": "asynctools-master",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107274,
-        "narHash": "sha256-xSnzLrmTPiF62imiF7bQEGuUnTO+/NOwb4X5GhaUpmI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "asynctools",
-        "rev": "8636de79d1c2f1e16fcf46c5cc9332e326d22980",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "asynctools",
-        "type": "github"
-      }
-    },
-    "asynctools-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "asynctools",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "asynctools",
           "nixpkgs"
         ],
         "src-asynctools-master": "src-asynctools-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107274,
-        "narHash": "sha256-xSnzLrmTPiF62imiF7bQEGuUnTO+/NOwb4X5GhaUpmI=",
+        "lastModified": 1648162919,
+        "narHash": "sha256-q1yzF24qf31PBLMoL8uOWrYZb2jTqTipNN8OH2f73/8=",
         "owner": "nim-nix-pkgs",
         "repo": "asynctools",
-        "rev": "8636de79d1c2f1e16fcf46c5cc9332e326d22980",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "asynctools",
-        "type": "github"
-      }
-    },
-    "asynctools-master_2": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "httpbeast",
-          "asynctools",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "httpbeast",
-          "asynctools",
-          "nixpkgs"
-        ],
-        "src-asynctools-master": "src-asynctools-master_2"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648107274,
-        "narHash": "sha256-xSnzLrmTPiF62imiF7bQEGuUnTO+/NOwb4X5GhaUpmI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "asynctools",
-        "rev": "8636de79d1c2f1e16fcf46c5cc9332e326d22980",
+        "rev": "4589ac7cfa2413b887a764762589806082ba6cea",
         "type": "github"
       },
       "original": {
@@ -87,7 +29,6 @@
     },
     "asynctools_2": {
       "inputs": {
-        "asynctools-master": "asynctools-master_2",
         "flakeNimbleLib": [
           "httpbeast",
           "flakeNimbleLib"
@@ -95,17 +36,20 @@
         "nixpkgs": [
           "httpbeast",
           "nixpkgs"
-        ]
+        ],
+        "src-asynctools-master": "src-asynctools-master_2"
       },
       "locked": {
-        "lastModified": 1648107274,
-        "narHash": "sha256-xSnzLrmTPiF62imiF7bQEGuUnTO+/NOwb4X5GhaUpmI=",
+        "dir": "master",
+        "lastModified": 1648162919,
+        "narHash": "sha256-q1yzF24qf31PBLMoL8uOWrYZb2jTqTipNN8OH2f73/8=",
         "owner": "nim-nix-pkgs",
         "repo": "asynctools",
-        "rev": "8636de79d1c2f1e16fcf46c5cc9332e326d22980",
+        "rev": "4589ac7cfa2413b887a764762589806082ba6cea",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "asynctools",
@@ -146,11 +90,11 @@
       },
       "locked": {
         "dir": "v0_4_0",
-        "lastModified": 1648110202,
-        "narHash": "sha256-x01AXAbLzrTx0af5rohVPG427abXok27tIgkHbantrM=",
+        "lastModified": 1648164311,
+        "narHash": "sha256-WlGyr21+M4+nwuyyzlAKudSL8XUx5Zfdo9xkO7d32pQ=",
         "owner": "nim-nix-pkgs",
         "repo": "httpbeast",
-        "rev": "4886cb522b75b1e9343ad41de04427702b39cbfd",
+        "rev": "478ee1635c3fa5c9a5fae1596e56e07505926945",
         "type": "github"
       },
       "original": {
