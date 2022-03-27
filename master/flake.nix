@@ -11,6 +11,7 @@
   inputs.src-jesterwithplugins-master.ref   = "refs/heads/master";
   inputs.src-jesterwithplugins-master.owner = "JohnAD";
   inputs.src-jesterwithplugins-master.repo  = "jesterwithplugins";
+  inputs.src-jesterwithplugins-master.dir   = "";
   inputs.src-jesterwithplugins-master.type  = "github";
   
   inputs."httpbeast".owner = "nim-nix-pkgs";

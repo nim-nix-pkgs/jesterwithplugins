@@ -11,6 +11,7 @@
   inputs.src-jester-v0_2_1.ref   = "refs/tags/v0.2.1";
   inputs.src-jester-v0_2_1.owner = "JohnAD";
   inputs.src-jester-v0_2_1.repo  = "jesterwithplugins";
+  inputs.src-jester-v0_2_1.dir   = "";
   inputs.src-jester-v0_2_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

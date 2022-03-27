@@ -11,6 +11,7 @@
   inputs.src-jesterwithplugins-v0_5_1.ref   = "refs/tags/v0.5.1";
   inputs.src-jesterwithplugins-v0_5_1.owner = "JohnAD";
   inputs.src-jesterwithplugins-v0_5_1.repo  = "jesterwithplugins";
+  inputs.src-jesterwithplugins-v0_5_1.dir   = "";
   inputs.src-jesterwithplugins-v0_5_1.type  = "github";
   
   inputs."httpbeast".owner = "nim-nix-pkgs";
