@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/JohnAD/jesterwithplugins/",
   "refs": [
-    "fatal: unable to access 'https://github.com/JohnAD/jesterwithplugins/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/JohnAD/jesterwithplugins/': Failed to connect to github.com port 443 after 132060 ms: Connection timed out",
     ""
   ],
   "heads": []
