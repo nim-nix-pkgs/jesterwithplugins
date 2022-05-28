@@ -90,11 +90,11 @@
       },
       "locked": {
         "dir": "v0_4_0",
-        "lastModified": 1652798675,
-        "narHash": "sha256-9nLeeJ9Yrwz7KxPjzWytStjxFXJmQlmBSDpyg9OG30Q=",
+        "lastModified": 1653699548,
+        "narHash": "sha256-JnuPcewT0EP2kJ+4DfC4F+p+jYiu6s/V5onRkVfFc+8=",
         "owner": "nim-nix-pkgs",
         "repo": "httpbeast",
-        "rev": "2df1a7078446c99c26a16ac3aa79d9a693a14d53",
+        "rev": "05475523d43fb72d014c7130e446653298f441ba",
         "type": "github"
       },
       "original": {
