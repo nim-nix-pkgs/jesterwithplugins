@@ -15,13 +15,13 @@
   inputs."jesterwithplugins-master".inputs.nixpkgs.follows = "nixpkgs";
   inputs."jesterwithplugins-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."jester-v0_1_0".dir   = "v0_1_0";
-  inputs."jester-v0_1_0".owner = "nim-nix-pkgs";
-  inputs."jester-v0_1_0".ref   = "master";
-  inputs."jester-v0_1_0".repo  = "jester";
-  inputs."jester-v0_1_0".type  = "github";
-  inputs."jester-v0_1_0".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."jester-v0_1_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."jesterwithplugins-v0_1_0".dir   = "v0_1_0";
+  inputs."jesterwithplugins-v0_1_0".owner = "nim-nix-pkgs";
+  inputs."jesterwithplugins-v0_1_0".ref   = "master";
+  inputs."jesterwithplugins-v0_1_0".repo  = "jesterwithplugins";
+  inputs."jesterwithplugins-v0_1_0".type  = "github";
+  inputs."jesterwithplugins-v0_1_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."jesterwithplugins-v0_1_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."jester-v0_1_1".dir   = "v0_1_1";
   inputs."jester-v0_1_1".owner = "nim-nix-pkgs";
